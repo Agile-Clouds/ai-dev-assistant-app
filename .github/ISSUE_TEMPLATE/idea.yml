@@ -1,0 +1,21 @@
+name: Idea
+about: Tell us what would help
+title: ""
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: "Never paste keys, tokens, passwords or .env contents. Remove private words from pictures and logs. For a security problem, email support@agile-clouds.com instead."
+  - type: textarea
+    id: need
+    attributes:
+      label: What would help?
+      description: Say what you want to do and what gets in the way now.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What should happen?
+    validations:
+      required: true

@@ -1,0 +1,43 @@
+name: Bug
+about: Tell us what went wrong
+title: ""
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Never paste keys, tokens, passwords or .env contents. Remove private words from pictures and logs. For a security problem, email support@agile-clouds.com instead."
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Say what you did and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AI Dev Assistant version
+      placeholder: 0.14.24
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Computer
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else?
+      description: Add safe steps or a picture with private words removed.
