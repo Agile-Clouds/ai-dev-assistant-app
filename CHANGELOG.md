@@ -1,5 +1,16 @@
 # Changes
 
+## 0.15.0 — 2026-10-25
+
+- Allowing another browser or phone now means typing the 8 digits the new device shows.
+- A browser allowed less than a day ago cannot allow others yet, and every new browser is announced.
+- A check that never started because your PC was busy waits and tries again, instead of counting as a failure.
+- A task folder held after an unconfirmed Windows start frees itself without restarting your PC.
+- Milestone proofs work on large projects.
+- Publishing is faster on Windows.
+- Move online follows the sign-up setting.
+- New online terms: email accounts and the locked online dashboard.
+
 ## 0.14.24 — 2026-10-23
 
 - Your PC keeps each picture and attachment in its own file, so its records stay small and fast.
