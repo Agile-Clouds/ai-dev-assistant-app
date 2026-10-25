@@ -10,6 +10,7 @@
 - Publishing is faster on Windows.
 - Move online follows the sign-up setting.
 - New online terms: email accounts and the locked online dashboard.
+- The final audit also tightened checks for secrets and for changes merged together. It improved how Windows keeps tasks apart, and fixed chat and planning in the locked online dashboard.
 
 ## 0.14.24 — 2026-10-23
 
