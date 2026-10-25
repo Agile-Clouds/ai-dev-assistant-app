@@ -1,5 +1,5 @@
 name: Bug
-about: Tell us what went wrong
+description: Tell us what went wrong
 title: ""
 labels: [bug]
 body:
@@ -23,7 +23,7 @@ body:
     id: version
     attributes:
       label: AI Dev Assistant version
-      placeholder: 0.15.0
+      placeholder: 0.15.1
     validations:
       required: true
   - type: dropdown
