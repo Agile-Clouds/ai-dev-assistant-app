@@ -1,5 +1,12 @@
 # Changes
 
+## 0.15.1 — 2026-10-25
+
+- Update now works even while new online terms wait for you to read them.
+- Before and after pictures of a task's pages work without installing the project's packages first.
+- Removing a project also removes its tools' sign-ins.
+- The dashboard on your PC says once that online use is closed, shows the full terms without a second logo, and lays out Privacy as clearly as the website.
+
 ## 0.15.0 — 2026-10-25
 
 - Allowing another browser or phone now means typing the 8 digits the new device shows.
