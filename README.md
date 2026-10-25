@@ -10,6 +10,8 @@ It is for a person who wants a project to move forward every day, while keeping 
 
 You get before and after pictures of the changed pages it can open.
 
+This repository holds AI Dev Assistant's install guide, [release notes](CHANGELOG.md), security policy and issue forms. The program's source is private; the installers and every update come from [ai-dev-assistant.agile-clouds.com](https://ai-dev-assistant.agile-clouds.com).
+
 ![AI Dev Assistant: a project's tasks moving from plan to reviewed code](images/hero-light.jpg)
 
 ![The dashboard: what needs you, what runs, what is next](images/dashboard-light.jpg)
@@ -41,6 +43,15 @@ curl -fsSL https://ai-dev-assistant.agile-clouds.com/install.sh | sh
 Setup opens in your browser. Choose Claude, Codex or both, sign in, then add a project. Nothing starts with your computer: you start it.
 
 You can read the install scripts before you run them: [Windows](https://ai-dev-assistant.agile-clouds.com/install.ps1) or [Mac and Linux](https://ai-dev-assistant.agile-clouds.com/install.sh).
+
+## Your first project
+
+1. **Add a project.** In your dashboard, press **Add project**: a folder on your PC, or a GitHub repository. You review the checks and settings it finds before any task runs.
+2. **Plan it.** A **planning meeting** asks you questions, then drafts the goal and its milestones. Nothing starts until you approve the plan.
+3. **Choose how much you decide.** **You decide**, the default, asks you to approve each task and each merge. **Autopilot** lets the AIs plan, build and merge, and still asks what only you can decide.
+4. **Turn development ON.** One AI builds each task, your project's checks run, the other AI reviews it, and the reviewed commit reaches main. **Needs you** gathers every question and approval.
+5. **See the result.** Each task shows its changes, its checks and its review. **Open it on your PC** runs the current version, and pictures show the pages a task changed.
+6. **Publish when you want.** The plan's **Publish** card puts an accepted milestone live on GitHub Pages, Netlify, Vercel, Railway or your own command.
 
 ## What stays on your PC
 

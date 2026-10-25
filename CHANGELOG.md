@@ -59,7 +59,7 @@
 
 ## 0.14.18 — 2026-10-22
 
-- Move online takes about 1.5 seconds without a restart.
+- Move online takes about 1.5 seconds without a restart, as measured on our test PC.
 - You can add phones after the move.
 - Netlify previews and publishes were confirmed on a real account.
 - A stopped preview offers **Try again**.
@@ -118,8 +118,8 @@
 
 ## 0.14.10 — 2026-10-21
 
-- Going online opens the dashboard in about a second.
-- An open dashboard tab uses about one thousandth of the data it used before.
+- Going online opens the dashboard in about a second, as measured on our test PC.
+- An open dashboard tab uses about one thousandth of the data it used before, in our measured hour.
 - You can try a milestone online before accepting it, or download it as an app.
 - The sign-in page has clear **Forgot your password** and **Ask to join** links.
 - A PC taken offline works again at once.
