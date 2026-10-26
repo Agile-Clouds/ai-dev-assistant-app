@@ -1,5 +1,23 @@
 # Changes
 
+## 0.15.3 — 2026-10-26
+
+- Adding a project that already has a plan: the planning screen shows your product's goal and one short line per
+  milestone, says what it found and where, and recommends **Review it**, **Show me your plan** (tick the files that
+  hold your plan) or **Start a new plan**, depending on what it could read.
+- A newly added project always gets its planning meeting first, even when you approve it while Add is still reading,
+  when the PC restarts during Add, or when the account had the project before; its first plan's publication lets the
+  tasks start.
+- Add project asks only what you decide at the start: no About or Checks and install sections, **Tasks and
+  milestones** instead of Pace, and your PC's AI setup shown for all projects with links to change it in Your PC.
+- **What needs your go-ahead first** now holds Autopilot: proposals and merges that touch a kind of change on your list
+  wait for your OK; remove a kind to let it run without asking. The field suggests 14 ready-made kinds, each with what
+  it covers, and refuses a kind already on the list.
+- The planning meeting asks which pages to picture before and after each change, and asks when your choices
+  contradict your project's own rules.
+- Codex cloud checks your environment's name as you type it.
+- The sign-in check names Claude's API-key way when you use it.
+
 ## 0.15.2 — 2026-10-26
 
 - Planning a project that already has a plan reads that plan first and in full: its goal and its phases become the
