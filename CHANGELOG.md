@@ -1,5 +1,19 @@
 # Changes
 
+## 0.15.2 — 2026-10-26
+
+- Planning a project that already has a plan reads that plan first and in full: its goal and its phases become the
+  plan's goal and milestones.
+- You can start a planning meeting before turning development on.
+- A planning meeting takes up to 8 attached files, and a send that fails keeps what you typed and chose.
+- Add project finds your existing copy, says when the folder you chose already holds one, and picks up the quick
+  checks your project's CI runs.
+- Claude Code on the web is greyed out while Claude uses your own API key, with a pointer to your Claude plan.
+- Codex cloud asks for your environment's name and links to the right Codex settings page.
+- Pages to show accepts pages with their own settings, such as `/?auto=west&seed=1`.
+- The online dashboard sends far less: an open window no longer reads itself again and again, and unchanged lists are
+  not sent twice.
+
 ## 0.15.1 — 2026-10-25
 
 - Update now works even while new online terms wait for you to read them.
