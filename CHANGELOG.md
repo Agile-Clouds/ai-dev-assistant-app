@@ -1,5 +1,29 @@
 # Changes
 
+## 0.15.4 — 2026-10-27
+
+- Every button and setting shows your change the moment you press it, with words that say what it is doing, until
+  your PC confirms it; a refusal puts it back with the reason. A press the dashboard did not take says "Not sent yet",
+  and one your PC has not received says "Not delivered yet"; pressing again sends it once, never twice.
+- The online dashboard sees its own presses again: after 40 presses it lost track of new ones, so settings flashed
+  back, the rules list never arrived and Save stayed on "Saving…". A press's effect now shows with its answer.
+- The planning meeting: the card you answered folds into one working card at once, with what your PC is doing, the
+  time so far and Stop. Steps are no longer cut at a fixed time, and a quiet AI gets one more try by itself. Review it
+  shows its findings. A goal written over several lines is read whole. Start over asks first and keeps your meeting.
+  Your answers apply when you approve What I understood. Draft a plan now says plainly what it still asks.
+- Saving an approved plan shows each step with its time: preparing, installing, each check, sending, saving on main.
+- After your plan is published, one card in Needs you lists the tools, servers, skills, AI settings and checks your
+  project offers, with Approve, Not now and Approve all; a key a task waits for is approved in Needs you too.
+  Milestone 1's card shows every first task the planner proposed.
+- When your plan chose a host, a question asks whether to turn Publish on: at the plan's publication, and once more
+  at your next accepted milestone. It never guesses the host.
+- Settings: the go-ahead list is in Permissions too; help lines no longer overlap; changing the dev server's port
+  really starts it on that port, and Clear keeps its start command; results name what changed ("1 hour").
+- Codex cloud: OpenAI's refusal is shown in its own words with what to do (for example two-step sign-in), with the
+  legacy environments page your PC needs; a failed trial never reads as connected.
+- Adding a project with its own plan starts in seconds and says plainly what it read.
+- Keys stay hidden from every log, alert and screen, even when two of them overlap.
+
 ## 0.15.3 — 2026-10-26
 
 - Adding a project that already has a plan: the planning screen shows your product's goal and one short line per
