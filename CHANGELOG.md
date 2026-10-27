@@ -1,5 +1,17 @@
 # Changes
 
+## 0.15.5
+
+- Your own plan is read the way you wrote it: one line per job from its tables and lists, never cut in the middle of a word, "Done when" only from your own words, and your on-hold items in Not now.
+- A review of your plan lets you choose Apply or Ignore for each suggestion first; one button then writes the plan with your choices and says which AI writes it, how long it takes and how it is paid. Suggested lines no longer look like links. A plan written from your own plan keeps your milestones exactly: a suggestion you ignored is never written in, and no milestone is added.
+- Saving a plan installs and checks once, not twice, when nothing changed meanwhile, and leaves one copy of your project instead of two.
+- In the planning meeting no choice can change while its press is on its way, Stop always works, a waiting card always ends, and the cost line is gone. Areas you answered, now or in an earlier meeting, are green.
+- Add project: Look for it runs one search at a time and stops spinning; only real settings are listed as keys; anything that needs you after Add is in Needs you; the Dev server line is green when it is ready.
+- Settings, Keys: one list of the keys on your PC, and Add a key works when a key is already saved.
+- Alerts are newest first on the online dashboard; First steps no longer shows a lone number; the go-ahead list refuses a change made on an outdated copy.
+- Settings, Tools says how to add another tool: ask the project's Assistant.
+- Words that are cut end at a whole word with "…", and the added page says which AI read your project.
+
 ## 0.15.4 — 2026-10-27
 
 - Every button and setting shows your change the moment you press it, with words that say what it is doing, until
