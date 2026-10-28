@@ -1,5 +1,15 @@
 # Changes
 
+## 0.15.7
+
+- One approval for the same commands: when a task's install and checks are the same as your project's own, you are asked once, not twice. Any doubt keeps the card, and the Assistant offers Allow only when it shows every command.
+- Stop the dev server: when pictures cannot be taken because the dev server Open it started holds the project's address and no other port works, Needs you and the milestone card offer Stop the dev server.
+- A paused project's items leave the Needs you count; they come back when you resume it.
+- Files a check writes (test pictures, reports) are no longer saved into your project. Nothing is deleted: your PC sets them aside in the project's Git data.
+- Pushes with the newest Git (2.56) can no longer move one of your local branches: your PC refuses the one Git setup where that could happen and says why. Pushes with Git 2.32 to 2.41 work again.
+- Claude Code on the web: when it does not work with the Claude account signed in, its switch says why and to press Try again.
+- The Assistant no longer shows an answer to a question that has moved on.
+
 ## 0.15.6
 
 - Projects without GitHub: your answers to a task's question reach your PC again (Try again, Close it, your own words), and a button left on screen from an earlier question can no longer answer a newer one.
