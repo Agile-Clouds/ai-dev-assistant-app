@@ -1,5 +1,18 @@
 # Changes
 
+## 0.15.6
+
+- Projects without GitHub: your answers to a task's question reach your PC again (Try again, Close it, your own words), and a button left on screen from an earlier question can no longer answer a newer one.
+- Big plans: a plan file up to 1 MB is read whole, every phase and every job (a larger one is read in part and says so), and a planning meeting keeps only what it needs, so a large plan no longer stops it; if a meeting ever cannot save another step, it ends with Start over and keeps your answers.
+- Milestones are accepted and published in the order of your plan; a later one that is ready waits for the earlier ones, and a milestone that cannot be proven says why in Needs you with Change current plan.
+- Publishing on Windows: your PC runs the publish itself (an AI cannot publish from Windows yet), and a failed publish says why on its card with the button that fixes it. No live address is shown before your first publish.
+- Needs you cards say in plain words who asks, why and what each button does; words that point elsewhere open that exact place; a paused project shows Resume; Stop the assistant says what it is still waiting for.
+- The project page: Sync my folder (it was Bring the latest into my folder) is always at the right with a sync icon, a Working now line shows what your PC is doing, and the page no longer wobbles when you scroll.
+- Planning: no project suggestions in Add project; a new plan starts as A whole product; you can type a folder path on the online dashboard; a folder without Git can be planned; once the plan is saved you are told to turn development ON, with the button; the planner's current step shows with its clock.
+- Tasks: titles in plain words; an AI can have a tracked file removed by your PC; a command Claude's own guard refused is named, and asked about once it repeats.
+- One project's stuck step no longer holds up your other projects.
+- Mac and Linux: the Opening AI Dev Assistant screen shows at start, and the app icon reopens the dashboard.
+
 ## 0.15.5
 
 - Your own plan is read the way you wrote it: one line per job from its tables and lists, never cut in the middle of a word, "Done when" only from your own words, and your on-hold items in Not now.
