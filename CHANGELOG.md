@@ -1,5 +1,24 @@
 # Changes
 
+## 0.15.9
+
+- After Release, your PC's own dashboard always opens again: a PC that accepted the local and online terms at different times was wrongly treated as not set up, and its window said Reconnecting… forever.
+- The Uninstall always removes the app. It keeps a backup of what it can and says in one line what it could not keep; a deleted project folder, a full disk or a slow backup never stops it.
+- The window never waits forever: when your PC answers that something needs you, it shows that screen with its button; when your PC does not answer, it says so after a short wait.
+- Update now refuses, with plain words, when it cannot save your work first, and always restarts once the new version is in place.
+- Accepting newer online terms on the online dashboard lets your PC carry on.
+- Bringing your records back after a reinstall says when a project's code history was already deleted, and never stops for it.
+
+## 0.15.8
+
+- The online dashboard opens in any browser after you sign in, with nothing to pair. A browser new to your account asks once for a 6-digit code we email you; a browser stays trusted until it goes 30 days without use.
+- Can't use the code? "Email me a sign-in link instead" sends a one-use link that works for 15 minutes in that browser.
+- Your account, Browsers you trust lists every trusted browser, with Remove and Sign out everywhere; each asks first.
+- Move online no longer needs a code typed on your PC or a phone pairing: sign in, check the code on your PC matches, and the dashboard opens.
+- Your project keys stay on your PC: every request to the dashboard is checked on your PC first, and a key is masked, and a file holding one is not sent.
+- If your PC moved online with an earlier version, Release still takes it back to its own dashboard after this update.
+- The online terms and Privacy page describe the new sign-in.
+
 ## 0.15.7
 
 - One approval for the same commands: when a task's install and checks are the same as your project's own, you are asked once, not twice. Any doubt keeps the card, and the Assistant offers Allow only when it shows every command.
